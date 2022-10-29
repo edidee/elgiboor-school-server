@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "the server-side codes for the school fees management system",
   "main": "index.js",
+"engines": {
+    "node": ">=12"
+},
   "scripts": {
     "start": "nodemon index",
     "serve": "node index",
