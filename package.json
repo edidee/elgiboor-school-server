@@ -1,0 +1,31 @@
+{
+  "name": "school-server",
+  "version": "1.0.0",
+  "description": "the server-side codes for the school fees management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "serve": "node index",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samora Cletus",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.22",
+    "apollo-server": "^3.6.3",
+    "apollo-server-express": "^3.6.5",
+    "apollo-upload-server": "^7.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ts-node": "^10.7.0"
+  }
+}
