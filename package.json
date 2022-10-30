@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index",
     "serve": "node index",
-    "build": "tsc",
+    "build": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
