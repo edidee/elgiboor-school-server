@@ -4,7 +4,6 @@
   "description": "the server-side codes for the school fees management system",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node index.js",
     "serve": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
