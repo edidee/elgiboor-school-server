@@ -4,8 +4,6 @@
   "description": "the server-side codes for the school fees management system",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "serve": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
